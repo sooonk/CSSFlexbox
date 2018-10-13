@@ -13,3 +13,110 @@ body{
     margin: 0 auto;
 }
 
+.flex-container{
+    display: flex;
+    background: #fff;
+    flex-wrap: wrap;
+    /*Flex Axis*/
+    flex-flow: column;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+
+}
+/*.flex-container:after{
+    content: "";
+    display: block;
+    clear: both;
+}*/
+/* Flex grow
+ 
+.box{
+    height: 100px;
+    min-width: 100px;
+    
+}
+.one{
+    background: red;
+    flex-grow: 1;
+}
+.two{
+    background: blue;
+    flex-grow: 2;
+}
+.three{
+    background: green;
+    flex-grow: 3;
+}
+
+Flex shrink*/
+/*.box{
+    height: 100px;
+    width: 320px;
+    
+}
+.one{
+    background: red;
+    flex-shrink: 1;
+    
+}
+.two{
+    background: blue;
+    flex-shrink: 2;
+    
+}
+.three{
+    background: green;
+    flex-shrink: 3;
+    
+}
+*/
+/*
+.box{
+    height: 100px;
+    flex:1 0 200px;
+    
+    
+    
+}
+.one{
+    background: red;
+    flex-basis: 100px;
+   
+    
+}
+.two{
+    background: blue;
+    flex-basis: 200px;
+    
+}
+.three{
+    background: green;
+    flex-basis: 300px;
+}  
+
+//Flex basis
+*/
+
+
+.box{
+    width: 100px;
+    flex: 0 0 100px;
+    
+    
+}
+.one{
+    background: red;
+    
+   
+    
+}
+.two{
+    background: blue;
+    
+    
+}
+.three{
+    background: green;
+    
+}  
